@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class MongoDBDemo {
     public static void main(String[] args) {
         // MongoDB Atlas connection string
-        String connectionString = "mongodb+srv://chiaszuk:yFkzx062ILbTEx3f@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        String connectionString = "mongodb+srv://username:password@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
         // Creating the scanner before the MongoDB operations
         Scanner scanner = new Scanner(System.in);
