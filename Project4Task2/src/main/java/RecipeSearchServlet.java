@@ -26,7 +26,7 @@ public class RecipeSearchServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         mealDBClient = new MealDBClient();
-        mongoLogger = new MongoLogger("mongodb+srv://chiaszuk:aHxXfdm5a77da7Ah@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+        mongoLogger = new MongoLogger("mongodb+srv://username:password@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
     }
 
     @Override
