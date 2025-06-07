@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe Ideas</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="search_recipes">Search Recipes</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="category">Category</string>
+    <string name="name">Name</string>
+    <string name="enter_search_term">Enter search term</string>
+    <string name="search">Search</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="recipe_details">Recipe details will appear here</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="no_recipes_found">No recipes found</string>
+    <string name="try_different_search">Try different search terms or categories</string>
+    <string name="no_results_icon">No results icon</string>
+
+    <!-- MainActivity -->
+    <string name="search_hint">Enter search term</string>
+    <string name="search_button">Search</string>
+    <string name="radio_name">Name</string>
+    <string name="radio_ingredient">Ingredient</string>
+    <string name="radio_category">Category</string>
+    <string name="no_results">No results found</string>
+    
+    <!-- Recipe Detail -->
+    <string name="ingredients_title">Ingredients</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="recipe_image_desc">Recipe Image</string>
+    
+    <!-- Error Messages -->
+    <string name="error_no_search_term">Please enter a search term</string>
+    <string name="error_network">Please check your internet connection</string>
+    <string name="error_processing">Error processing results</string>
+</resources>
+
