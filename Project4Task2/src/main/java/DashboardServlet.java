@@ -24,7 +24,7 @@ public class DashboardServlet extends HttpServlet {
         super.init();
         String mongoUri = System.getenv("MONGODB_URI");
         if (mongoUri == null || mongoUri.isEmpty()) {
-            mongoUri = "mongodb+srv://chiaszuk:aHxXfdm5a77da7Ah@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // fallback for local development
+            mongoUri = "mongodb+srv://pwd@cluster0.u3zw0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // fallback for local development
         }
         mongoLogger = new MongoLogger(mongoUri);
     }
